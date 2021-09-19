@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todo-input {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #16A3B7;
+}
+
+.entire-todo-input {
+  border: 1px solid #CED4DA;
+  padding: 30px;
+}
+
+.btn-task {
+  width: 715px;
+  background-color: #16A3B7;
+}
+.catagory-btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+}
+.catagory-btn Button {
+  background: #16A3B7;
+}
+.single-todo {
+  text-align: left;
+}
+.single-todo-catagory {
+  align-items: center;
+}
+.single-todo-catagory-button {
+  margin-left: auto;
+  background-color: #ffffff;
+}
+.done {
+  color: red;
+}
